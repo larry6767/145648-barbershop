@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Ларик Ларик](https://htmlacademy.ru/profile/id145648).
+* Наставник: [Дмитрий Лебедев](https://htmlacademy.ru/profile/id51265).
 
 ---
 
