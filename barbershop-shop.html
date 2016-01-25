@@ -50,82 +50,121 @@
 			</div>
 			<div class="filter">
 				<form>
-					<label>Производители:</label>
-					<br>
-					<label><input type="checkbox" id="baxter" checked>Baxter of california</label>
-					<br>
-					<label><input type="checkbox" id="mr_natty">Mr Natty</label>
-					<br>
-					<label><input type="checkbox" id="suavecito" checked>Suavecito</label>
-					<br>
-					<label><input type="checkbox" id="malin">Malin+Goetz</label>
-					<br>
-					<label><input type="checkbox" id="murrays">Murray's</label>
-					<br>
-					<label><input type="checkbox" id="american" checked>American crew</label>
-					<br>
-					<label>Группы товаров:</label>
-					<br>
-					<label><input type="checkbox" id="shaving">Бритвенные принадлежности</label>
-					<br>
-					<label><input type="checkbox" id="care" checked>Средства для ухода</label>
-					<br>
-					<label><input type="checkbox" id="accessories">Аксессуары</label>
-					<br>
+					<h3>Производители:</h3>
+					<label class="control checkbox">
+						<input type="checkbox" id="baxter" checked>
+						<span class="control-indicator"></span>
+						Baxter of california
+					</label>
+					<label class="control checkbox">
+						<input type="checkbox" id="mr_natty">
+						<span class="control-indicator"></span>
+						Mr Natty
+					</label>
+					<label class="control checkbox">
+						<input type="checkbox" id="suavecito" checked>
+						<span class="control-indicator"></span>
+						Suavecito
+					</label>
+					<label class="control checkbox">
+						<input type="checkbox" id="malin">
+						<span class="control-indicator"></span>
+						Malin+Goetz
+					</label>
+					<label class="control checkbox">
+						<input type="checkbox" id="murrays">
+						<span class="control-indicator"></span>
+						Murray's
+					</label>
+					<label class="control checkbox">
+						<input type="checkbox" id="american" checked>
+						<span class="control-indicator"></span>
+						American crew
+					</label>
+					<h3>Группы товаров:</h3>
+					<label class="control radio">
+						<input type="radio" name="groups-of-products" id="shaving">
+						<span class="control-indicator"></span>
+						Бритвенные принадлежности
+					</label>
+					<label class="control radio">
+						<input type="radio" name="groups-of-products" id="care" checked>
+						<span class="control-indicator"></span>
+						Средства для ухода
+					</label>
+					<label class="control radio">
+						<input type="radio" name="groups-of-products" id="accessories">
+						<span class="control-indicator"></span>
+						Аксессуары
+					</label>
 					<input type="submit" value="Показать">
 				</form>
 			</div>
-			<div class="catalog-panel">
+			<div class="catalog">
 				<div class="catalog-wrapper">
 					<article class="product">
 						<a href="#"><img src="img/travel-kit-baxter-3.png"></a>
-						<p>Набор для путешествий "Baxter of california"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Набор для путешествий <span>«Baxter of california»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 					<article class="product">
 						<a href="#"><img src="img/conditioner-baxter"></a>
-						<p>Увлажняющий кондиционер "Baxter of california"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Увлажняющий кондиционер <span>«Baxter of california»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 					<article class="product">
 						<a href="#"><img src="img/hair-gel-suavecito"></a>
-						<p>Гель для волос "Suavecito"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Гель для волос <span>«Suavecito»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 					<article class="product">
 						<a href="#"><img src="img/hair=clay-americancrew"></a>
-						<p>Глина для укладки волос "American crew"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Глина для укладки волос <span>«American crew»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 					<article class="product">
 						<a href="#"><img src="img/hair-gel-americancrew"></a>
-						<p>Гель для волос "American crew"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Гель для волос <span>«American crew»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 					<article class="product">
 						<a href="#"><img src="img/shaving-kit-baxter"></a>
-						<p>Набор для бритья "Baxter of california"</p>
-						<span class="price"></span>
-						<a class="btn" href="#">Купить</a>				
+						<p class="product-description">Набор для бритья <span>«Baxter of california»</span></p>
+						<div class="price-panel">
+							<span class="price"></span>
+							<a class="btn" href="#">Купить</a>
+						</div>				
 					</article>
 				</div>
 				<div class="btn-page-wrapper">
-					<a href="#">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">4</a>
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+					</ul>
 				</div>
 			</div>
 		</main>
 		<footer class="footer">
 			<div class="container">
 				<section class="footer-contacts">
-					Барбершоп "Бородинский" <br>
+					Барбершоп «Бородинский» <br>
 					Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
 					<a href="#">Как нас найти</a> <br>
 					Телефон: +7 (495) 666-02-66
