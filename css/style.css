@@ -19,3 +19,118 @@ h2 {
 	font-weight: bold;
 	font-family: "PT Sans", "Times New Roman";
 }
+
+/*Общие стили для страниц*/
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.to-left {
+	float: left;
+}
+.to-right {
+	float: right;
+}
+
+.page-header {
+	margin-bottom: 55px;
+
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-navigation {
+	width: 780px;
+}
+.user-block {
+	width: 140px;
+}
+.conteiner h1 {
+	margin-bottom: 15px;
+}
+.breadcrumbs {
+	margin-bottom: 55px;
+}
+.footer-contacts {
+	width: 320px;
+	margin-right: 60px;
+}
+.footer-social {
+	width: 180px;
+	margin-right: 240px;
+}
+.footer-copyright {
+	width: 140px;
+}
+
+/*Стили для страницы товара*/
+
+.product-photo-wrapper,
+.catalog-filter-wrapper {
+	margin-bottom: 45px;
+}
+.product-photo-panel {
+	width: 460px;
+}
+.product-panel {
+	width: 390px;
+}
+.photo-wrapper {
+	margin-bottom: 20px;
+}
+.small-photo-wrapper {
+
+}
+.vendor-code {
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.product-description {
+	margin-bottom: 25px;
+}
+.price-panel {
+	width: 185px;
+	margin-bottom: 65px;
+}
+.set-includes {
+	margin-bottom: 35px;
+}
+
+/*Стили для страницы каталога*/
+
+.filter {
+	width: 220px;
+}
+.catalog {
+	width: 700px;
+}
+.catalog-wrapper {
+	margin-bottom: 25px;
+	font-size: 0;
+}
+.product {
+	width: 220px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+}
+.product:nth-child(3n) {
+	margin-right: 0;
+}
+.product-description {
+	margin: 15px 0;
+}
+.product .price-panel {
+	margin-bottom: 15px;
+}
+.btn-page-wrapper {
+
+}
+
+/*Стили для страницы прайса*/

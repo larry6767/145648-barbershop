@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		<header class="page-header">
-			<div class="container">
-				<nav class="main-navigation">
+			<div class="container clearfix">
+				<nav class="main-navigation to-left">
 					<ul>
 						<li class="logo">
 							<a href="index.html"><img src="img/logo.png" width="111" height="24" alt="Barbershop"></a>
@@ -29,7 +29,7 @@
 							<a href="#">Контакты</a>
 						</li>
 				</nav>
-				<div class="user-block">
+				<div class="user-block to-right">
 					<a class="login" href="#">Вход</a>
 				</div>
 			</div>
@@ -49,134 +49,136 @@
 					</li>
 				</ul>
 			</div>
-			<div class="filter">
-				<form>
-					<h3 class="manufacturers">Производители:</h3>
-					<label class="control checkbox">
-						<input type="checkbox" id="baxter" checked>
-						<span class="control-indicator"></span>
-						Baxter of california
-					</label>
-					<label class="control checkbox">
-						<input type="checkbox" id="mr_natty">
-						<span class="control-indicator"></span>
-						Mr Natty
-					</label>
-					<label class="control checkbox">
-						<input type="checkbox" id="suavecito" checked>
-						<span class="control-indicator"></span>
-						Suavecito
-					</label>
-					<label class="control checkbox">
-						<input type="checkbox" id="malin">
-						<span class="control-indicator"></span>
-						Malin+Goetz
-					</label>
-					<label class="control checkbox">
-						<input type="checkbox" id="murrays">
-						<span class="control-indicator"></span>
-						Murray's
-					</label>
-					<label class="control checkbox">
-						<input type="checkbox" id="american" checked>
-						<span class="control-indicator"></span>
-						American crew
-					</label>
-					<h3 class="groups-of-products">Группы товаров:</h3>
-					<label class="control radio">
-						<input type="radio" name="groups-of-products" id="shaving">
-						<span class="control-indicator"></span>
-						Бритвенные принадлежности
-					</label>
-					<label class="control radio">
-						<input type="radio" name="groups-of-products" id="care" checked>
-						<span class="control-indicator"></span>
-						Средства для ухода
-					</label>
-					<label class="control radio">
-						<input type="radio" name="groups-of-products" id="accessories">
-						<span class="control-indicator"></span>
-						Аксессуары
-					</label>
-					<input type="submit" value="Показать">
-				</form>
-			</div>
-			<div class="catalog">
-				<div class="catalog-wrapper">
-					<article class="product">
-						<a href="#"><img src="img/travel-kit-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Набор для путешествий <span>«Baxter of california»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
-					<article class="product">
-						<a href="#"><img src="img/conditioner-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Увлажняющий кондиционер <span>«Baxter of california»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
-					<article class="product">
-						<a href="#"><img src="img/hair-gel-suavecito-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Гель для волос <span>«Suavecito»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
-					<article class="product">
-						<a href="#"><img src="img/hair-clay-americancrew-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Глина для укладки волос <span>«American crew»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
-					<article class="product">
-						<a href="#"><img src="img/hair-gel-americancrew-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Гель для волос <span>«American crew»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
-					<article class="product">
-						<a href="#"><img src="img/shaving-kit-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
-						<p class="product-description">Набор для бритья <span>«Baxter of california»</span></p>
-						<div class="price-panel">
-							<span class="price"></span>
-							<a class="btn" href="#">Купить</a>
-						</div>				
-					</article>
+			<div class="catalog-filter-wrapper clearfix">
+				<div class="filter to-left">
+					<form>
+						<h3 class="manufacturers">Производители:</h3>
+						<label class="control checkbox">
+							<input type="checkbox" id="baxter" checked>
+							<span class="control-indicator"></span>
+							Baxter of california
+						</label>
+						<label class="control checkbox">
+							<input type="checkbox" id="mr_natty">
+							<span class="control-indicator"></span>
+							Mr Natty
+						</label>
+						<label class="control checkbox">
+							<input type="checkbox" id="suavecito" checked>
+							<span class="control-indicator"></span>
+							Suavecito
+						</label>
+						<label class="control checkbox">
+							<input type="checkbox" id="malin">
+							<span class="control-indicator"></span>
+							Malin+Goetz
+						</label>
+						<label class="control checkbox">
+							<input type="checkbox" id="murrays">
+							<span class="control-indicator"></span>
+							Murray's
+						</label>
+						<label class="control checkbox">
+							<input type="checkbox" id="american" checked>
+							<span class="control-indicator"></span>
+							American crew
+						</label>
+						<h3 class="groups-of-products">Группы товаров:</h3>
+						<label class="control radio">
+							<input type="radio" name="groups-of-products" id="shaving">
+							<span class="control-indicator"></span>
+							Бритвенные принадлежности
+						</label>
+						<label class="control radio">
+							<input type="radio" name="groups-of-products" id="care" checked>
+							<span class="control-indicator"></span>
+							Средства для ухода
+						</label>
+						<label class="control radio">
+							<input type="radio" name="groups-of-products" id="accessories">
+							<span class="control-indicator"></span>
+							Аксессуары
+						</label>
+						<input type="submit" value="Показать">
+					</form>
 				</div>
-				<div class="btn-page-wrapper">
-					<ul>
-						<li><a href="#">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-					</ul>
+				<div class="catalog to-right">
+					<div class="catalog-wrapper">
+						<article class="product">
+							<a href="#"><img src="img/travel-kit-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Набор для путешествий <span>«Baxter of california»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+						<article class="product">
+							<a href="#"><img src="img/conditioner-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Увлажняющий кондиционер <span>«Baxter of california»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+						<article class="product">
+							<a href="#"><img src="img/hair-gel-suavecito-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Гель для волос <span>«Suavecito»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+						<article class="product">
+							<a href="#"><img src="img/hair-clay-americancrew-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Глина для укладки волос <span>«American crew»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+						<article class="product">
+							<a href="#"><img src="img/hair-gel-americancrew-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Гель для волос <span>«American crew»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+						<article class="product">
+							<a href="#"><img src="img/shaving-kit-baxter-preview.jpeg" width="220" height="165" alt="Фото товара"></a>
+							<p class="product-description">Набор для бритья <span>«Baxter of california»</span></p>
+							<div class="price-panel">
+								<span class="price"></span>
+								<a class="btn" href="#">Купить</a>
+							</div>				
+						</article>
+					</div>
+					<div class="btn-page-wrapper">
+						<ul>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</main>
 		<footer class="footer">
-			<div class="container">
-				<section class="footer-contacts">
+			<div class="container clearfix">
+				<section class="footer-contacts to-left">
 					Барбершоп «Бородинский» <br>
 					Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
 					<a href="#">Как нас найти</a> <br>
 					Телефон: +7 (495) 666-02-66
 				</section>
-				<section class="footer-social">
+				<section class="footer-social to-left">
 					<p>Давайте дружить!</p>
 					<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
 					<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
 					<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
 				</section>
-				<section class="footer-copyright">
+				<section class="footer-copyright to-left">
 					<p>Разработанно:</p>
 					<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
 				</section>
