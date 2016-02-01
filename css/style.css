@@ -134,3 +134,25 @@ h2 {
 }
 
 /*Стили для страницы прайса*/
+
+.caption {
+	margin-bottom: 65px;
+}
+.price-panel-wrapper {
+	margin-bottom: 75px;
+}
+.price-left-panel {
+	width: 390px;
+}
+.price-right-panel {
+	width: 460px;
+}
+.price-panel-caption {
+	margin-bottom: 30px;
+}
+.price-panel-list {
+	margin-bottom: 60px;
+}
+.price-panel-table {
+	margin-bottom: 120px;
+}
