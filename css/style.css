@@ -1,4 +1,9 @@
-@import "http://webfonts.ru/import/ptsans.css";
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('ptsansnarrow.woff2') format('woff2'), url('ptsansnarrow.woff') format('woff'), url('ptsansnarrow.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 body {
 	font-size: 14px;
 	line-height: 1.715;
